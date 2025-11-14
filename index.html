@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Making Portfolio Projects</title>
-    <link rel="stylesheet" href="project.1.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Analyst Portfolio</title>
+    <link rel="stylesheet" href="project.1.css" />
 </head>
 
 <body>
-
-    
-    <header id="header">
-        <h1>My Portfolio</h1>
-    </header>
-   
-    <nav class="my-nav">
-        <div id="main-nav">
-            <div class="div-sec">
-                <a href="#home" class="opt">Home</a>
-                <a href="#projects" class="opt">Projects</a>
-                <a href="#skill" class="opt">Skill</a>
-                <a href="#contact" class="opt">Contact</a>
-            </div>  
-        </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h1 class="logo">CYBER<span>SECURITY</span></h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    
-    <section class="display-flex" id="home">
-        <div class="flex-item">Hi</div>
-        <div class="flex-item">Hello</div>
-        <div class="flex-item">Welcome</div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hello, I'm <span>Pritom Roy</span></h2>
+            <h3>Cybersecurity Analyst & Threat Researcher</h3>
+            <p>I specialize in vulnerability analysis, malware research, and security incident response.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
     </section>
 
-    
-    <section id="projects">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a cybersecurity analyst with expertise in threat detection, penetration testing,
+            and digital forensics. Passionate about securing systems, analyzing attacks, 
+            and developing defensive strategies to protect critical infrastructure.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill-grid">
+            <div class="skill-card">🔐 Penetration Testing</div>
+            <div class="skill-card">🛡 SIEM Monitoring</div>
+            <div class="skill-card">💻 Python for Security</div>
+            <div class="skill-card">📡 Network Defense</div>
+            <div class="skill-card">📁 Digital Forensics</div>
+            <div class="skill-card">🌐 Web App Security</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
         <h2>Projects</h2>
-        <p>Here are some projects I have worked on.</p>
+
+        <div class="project-card">
+            <h3>Threat Intelligence Dashboard</h3>
+            <p>A dashboard that analyzes logs and visualizes attack patterns using Python + ELK.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Vulnerability Scanner</h3>
+            <p>Custom-built scanner that identifies weak configurations and missing patches.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
     </section>
 
-    <section id="skill">
-        <h2>Skills</h2>
-        <p>Technologies and tools I am good at.</p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <strong>palokroy2006@gmail.com.com</strong></p>
+        <p>LinkedIn: <strong>linkedin.com/in/yourprofile</strong></p>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: palokroy2006@example.com</p>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>A short description about yourself.</p>
-    </section>
-<div>
-    
-</div>
+    <footer>
+        <p>© 2025 Pritom Roy — Cybersecurity Portfolio</p>
+    </footer>
 </body>
 </html>
