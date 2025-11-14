@@ -124,3 +124,17 @@ footer {
     background: #1f2833;
     margin-top: 40px;
 }
+/* HACKER LOGO */
+.hacker-logo {
+    margin-bottom: 30px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.hacker-logo img {
+    width: 180px;
+    height: auto;
+    filter: drop-shadow(0 0 12px #00eaff);
+    opacity: 0.9;
+}
+
+/* Floating animation */
